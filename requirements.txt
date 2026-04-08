@@ -1,0 +1,25 @@
+# MSHDR Project — Python 3.13+
+# Install: pip3 install -r requirements.txt
+
+# ── Core data science ─────────────────────────────────────────────────────────
+numpy>=2.4.2
+pandas>=3.0.1
+scikit-learn>=1.8.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.10.8
+seaborn>=0.13.2
+
+# ── Deep learning (Supervised Contrastive VAE in MSHDR v2) ───────────────────
+torch>=2.10.0
+
+# ── Manifold learning ─────────────────────────────────────────────────────────
+umap-learn>=0.5.11
+
+# ── Optional boosting classifiers (code falls back gracefully without these) ──
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+
+torch
+torchvision
